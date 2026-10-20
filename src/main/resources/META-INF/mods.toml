@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="gunholsters"
+version="1.0.0"
+displayName="Gun Holsters"
+description='''Anade slots de Curios (cintura y espalda) para guardar armas de Vic's Point Blank y Civilian Gun Pack, con render visible, animacion de desenfundar y teclas configurables.'''
+
+[[dependencies.gunholsters]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gunholsters]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gunholsters]]
+modId="curios"
+mandatory=true
+versionRange="[5.2,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.gunholsters]]
+modId="pointblank"
+mandatory=false
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

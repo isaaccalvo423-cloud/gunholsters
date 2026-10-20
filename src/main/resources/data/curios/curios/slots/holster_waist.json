@@ -1,0 +1,1 @@
+{ "size": 1, "order": 90, "icon": "gunholsters:slot/empty_holster_waist", "add_cosmetic": false, "use_native_gui": true, "render_toggle": true, "drop_rule": "DEFAULT" }
